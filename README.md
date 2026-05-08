@@ -8,6 +8,7 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 
 | Team | Mascot | Pet ID | Status |
 | --- | --- | --- | --- |
+| 한화 이글스 | 수리 | `soori` | Available |
 | 두산 베어스 | 철웅이 | `bears_cheolwoongi` | Available |
 | NC 다이노스 | 단디 | `dandi` | Available |
 | kt wiz | Vic | `vic` | Available |
@@ -20,12 +21,26 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 
 ```bash
 mkdir -p ~/.codex/pets
+cp -R pets/soori ~/.codex/pets/
 cp -R pets/bears_cheolwoongi ~/.codex/pets/
 cp -R pets/dandi ~/.codex/pets/
 cp -R pets/vic ~/.codex/pets/
 ```
 
 하나만 설치하려면 해당 `cp -R` 줄만 실행하면 됩니다. 설치 후 Codex를 다시 열면 추가한 펫을 사용할 수 있습니다.
+
+## 한화 이글스
+
+### 수리
+
+![수리 contact sheet](previews/soori/contact-sheet.png)
+
+### 수리 포함 파일
+
+- `pets/soori/pet.json`
+- `pets/soori/spritesheet.webp`
+- `previews/soori/contact-sheet.png`
+- `previews/soori/idle.mp4`
 
 ## 두산 베어스
 
@@ -68,4 +83,4 @@ cp -R pets/vic ~/.codex/pets/
 
 ## Notes
 
-This is a fan-made Codex pet collection. It is not affiliated with or endorsed by KBO, Doosan Bears, NC Dinos, kt wiz, or any related trademark owner.
+This is a fan-made Codex pet collection. It is not affiliated with or endorsed by KBO, Hanwha Eagles, Doosan Bears, NC Dinos, kt wiz, or any related trademark owner.
