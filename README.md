@@ -9,6 +9,7 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 | Team | Mascot | Pet ID | Status |
 | --- | --- | --- | --- |
 | 두산 베어스 | 철웅이 | `bears_cheolwoongi` | Available |
+| NC 다이노스 | 단디 | `dandi` | Available |
 | kt wiz | Vic | `vic` | Available |
 
 다른 팀 마스코트는 순차적으로 추가할 예정입니다.
@@ -20,6 +21,7 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 ```bash
 mkdir -p ~/.codex/pets
 cp -R pets/bears_cheolwoongi ~/.codex/pets/
+cp -R pets/dandi ~/.codex/pets/
 cp -R pets/vic ~/.codex/pets/
 ```
 
@@ -38,6 +40,19 @@ cp -R pets/vic ~/.codex/pets/
 - `previews/bears_cheolwoongi/contact-sheet.png`
 - `previews/bears_cheolwoongi/idle.mp4`
 
+## NC 다이노스
+
+### 단디
+
+![단디 contact sheet](previews/dandi/contact-sheet.png)
+
+### 단디 포함 파일
+
+- `pets/dandi/pet.json`
+- `pets/dandi/spritesheet.webp`
+- `previews/dandi/contact-sheet.png`
+- `previews/dandi/idle.mp4`
+
 ## kt wiz
 
 ### Vic
@@ -53,4 +68,4 @@ cp -R pets/vic ~/.codex/pets/
 
 ## Notes
 
-This is a fan-made Codex pet collection. It is not affiliated with or endorsed by KBO, Doosan Bears, kt wiz, or any related trademark owner.
+This is a fan-made Codex pet collection. It is not affiliated with or endorsed by KBO, Doosan Bears, NC Dinos, kt wiz, or any related trademark owner.
