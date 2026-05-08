@@ -13,22 +13,23 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 
 다른 팀 마스코트는 순차적으로 추가할 예정입니다.
 
+## Installation
+
+이 저장소를 내려받은 뒤, 원하는 펫 폴더를 로컬 Codex 펫 폴더로 복사하세요.
+
+```bash
+mkdir -p ~/.codex/pets
+cp -R pets/bears_cheolwoongi ~/.codex/pets/
+cp -R pets/vic ~/.codex/pets/
+```
+
+하나만 설치하려면 해당 `cp -R` 줄만 실행하면 됩니다. 설치 후 Codex를 다시 열면 추가한 펫을 사용할 수 있습니다.
+
 ## 두산 베어스
 
 ### 철웅이
 
 ![철웅이 contact sheet](previews/bears_cheolwoongi/contact-sheet.png)
-
-### 철웅이 설치
-
-이 저장소를 내려받은 뒤, `pets/bears_cheolwoongi` 폴더를 로컬 Codex 펫 폴더로 복사하세요.
-
-```bash
-mkdir -p ~/.codex/pets
-cp -R pets/bears_cheolwoongi ~/.codex/pets/
-```
-
-설치 후 Codex를 다시 열면 `철웅이` 펫을 사용할 수 있습니다.
 
 ### 철웅이 포함 파일
 
@@ -42,17 +43,6 @@ cp -R pets/bears_cheolwoongi ~/.codex/pets/
 ### Vic
 
 ![Vic contact sheet](previews/vic/contact-sheet.png)
-
-### Vic 설치
-
-이 저장소를 내려받은 뒤, `pets/vic` 폴더를 로컬 Codex 펫 폴더로 복사하세요.
-
-```bash
-mkdir -p ~/.codex/pets
-cp -R pets/vic ~/.codex/pets/
-```
-
-설치 후 Codex를 다시 열면 `Vic` 펫을 사용할 수 있습니다.
 
 ### Vic 포함 파일
 
