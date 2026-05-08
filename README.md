@@ -1,14 +1,24 @@
-# KBO Mascot Codex Pet
+# KBO Mascot Codex Pets
 
-Codex에서 사용할 수 있는 커스텀 KBO 마스코트 스타일 펫 모음입니다.
+Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉션입니다.
+
+이 프로젝트의 목표는 KBO 리그 각 팀의 마스코트를 Codex 펫으로 하나씩 제작해 모으는 것입니다. 현재 첫 번째 펫으로 두산 베어스의 `철웅이`가 포함되어 있습니다.
+
+## Mascots
+
+| Team | Mascot | Pet ID | Status |
+| --- | --- | --- | --- |
+| 두산 베어스 | 철웅이 | `cheolwoongi` | Available |
+
+다른 팀 마스코트는 순차적으로 추가할 예정입니다.
 
 ## 철웅이
 
-철웅이는 네이비 야구 모자를 쓴 씩씩한 하얀 곰 디지털 펫입니다.
+철웅이는 두산 베어스 스타일의 네이비 야구 모자를 쓴 씩씩한 하얀 곰 디지털 펫입니다.
 
 ![철웅이 contact sheet](previews/cheolwoongi/contact-sheet.png)
 
-### 설치
+### 철웅이 설치
 
 이 저장소를 내려받은 뒤, `pets/cheolwoongi` 폴더를 로컬 Codex 펫 폴더로 복사하세요.
 
@@ -19,7 +29,7 @@ cp -R pets/cheolwoongi ~/.codex/pets/
 
 설치 후 Codex를 다시 열면 `철웅이` 펫을 사용할 수 있습니다.
 
-### 포함 파일
+### 철웅이 포함 파일
 
 - `pets/cheolwoongi/pet.json`
 - `pets/cheolwoongi/spritesheet.webp`
@@ -28,4 +38,4 @@ cp -R pets/cheolwoongi ~/.codex/pets/
 
 ## Notes
 
-This is a fan-made Codex pet asset. It is not affiliated with or endorsed by KBO, Doosan Bears, or any related trademark owner.
+This is a fan-made Codex pet collection. It is not affiliated with or endorsed by KBO, Doosan Bears, or any related trademark owner.
