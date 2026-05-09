@@ -10,6 +10,7 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 | --- | --- | --- | --- |
 | 한화 이글스 | 수리 | `soori` | Available |
 | 두산 베어스 | 철웅이 | `bears_cheolwoongi` | Available |
+| 두산 베어스 | 망그러진곰 | `mang_bear` | Available |
 | 롯데 자이언츠 | 누리 | `noori` | Available |
 | SSG 랜더스 | 랜디 | `landy` | Available |
 | NC 다이노스 | 단디 | `dandi` | Available |
@@ -25,6 +26,7 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 mkdir -p ~/.codex/pets
 cp -R pets/soori ~/.codex/pets/
 cp -R pets/bears_cheolwoongi ~/.codex/pets/
+cp -R pets/mang_bear ~/.codex/pets/
 cp -R pets/noori ~/.codex/pets/
 cp -R pets/landy ~/.codex/pets/
 cp -R pets/dandi ~/.codex/pets/
@@ -58,6 +60,17 @@ cp -R pets/vic ~/.codex/pets/
 - `pets/bears_cheolwoongi/spritesheet.webp`
 - `previews/bears_cheolwoongi/contact-sheet.png`
 - `previews/bears_cheolwoongi/idle.mp4`
+
+### 망그러진곰
+
+![망그러진곰 contact sheet](previews/mang_bear/contact-sheet.png)
+
+### 망그러진곰 포함 파일
+
+- `pets/mang_bear/pet.json`
+- `pets/mang_bear/spritesheet.webp`
+- `previews/mang_bear/contact-sheet.png`
+- `previews/mang_bear/idle.mp4`
 
 ## 롯데 자이언츠
 
