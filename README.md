@@ -15,6 +15,7 @@ Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉
 | SSG 랜더스 | 랜디 | `landy` | Available |
 | NC 다이노스 | 단디 | `dandi` | Available |
 | kt wiz | Vic | `vic` | Available |
+| KIA 타이거즈 | 호걸이 | `hogeori` | Available |
 
 다른 팀 마스코트는 순차적으로 추가할 예정입니다.
 
@@ -31,6 +32,7 @@ cp -R pets/noori ~/.codex/pets/
 cp -R pets/landy ~/.codex/pets/
 cp -R pets/dandi ~/.codex/pets/
 cp -R pets/vic ~/.codex/pets/
+cp -R pets/hogeori ~/.codex/pets/
 ```
 
 하나만 설치하려면 해당 `cp -R` 줄만 실행하면 됩니다. 설치 후 Codex를 다시 열면 추가한 펫을 사용할 수 있습니다.
@@ -124,6 +126,19 @@ cp -R pets/vic ~/.codex/pets/
 - `previews/vic/contact-sheet.png`
 - `previews/vic/idle.mp4`
 
+## KIA 타이거즈
+
+### 호걸이
+
+![호걸이 contact sheet](previews/hogeori/contact-sheet.png)
+
+### 호걸이 포함 파일
+
+- `pets/hogeori/pet.json`
+- `pets/hogeori/spritesheet.webp`
+- `previews/hogeori/contact-sheet.png`
+- `previews/hogeori/idle.mp4`
+
 ## Notes
 
-This is a fan-made Codex pet collection. It is not affiliated with or endorsed by KBO, Hanwha Eagles, Doosan Bears, Lotte Giants, SSG Landers, NC Dinos, kt wiz, or any related trademark owner.
+This is a fan-made Codex pet collection. It is not affiliated with or endorsed by KBO, Hanwha Eagles, Doosan Bears, Lotte Giants, SSG Landers, NC Dinos, kt wiz, KIA Tigers, or any related trademark owner.
