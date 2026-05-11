@@ -2,7 +2,7 @@
 
 Codex에서 사용할 수 있는 KBO 마스코트 스타일 커스텀 펫 컬렉션입니다.
 
-이 프로젝트의 목표는 KBO 리그 각 팀의 마스코트를 Codex 펫으로 하나씩 제작해 모으는 것입니다. 현재 첫 번째 펫으로 두산 베어스의 `철웅이`가 포함되어 있습니다.
+이 프로젝트의 목표는 KBO 리그 각 팀의 마스코트를 Codex 펫으로 하나씩 제작해 모으는 것입니다. 현재 두산 베어스의 `철웅이`와 KT 위즈의 `또리`가 포함되어 있습니다.
 
 ## Mascots
 
@@ -35,8 +35,8 @@ cp -R pets/bears_cheolwoongi ~/.codex/pets/
 - `previews/bears_cheolwoongi/contact-sheet.png`
 - `previews/bears_cheolwoongi/idle.mp4`
 
-## 또리
-
+## KT 위즈
+### 또리
 또리는 KT 위즈 스타일의 검정 마법사 모자와 빨간 포인트를 가진 밝고 장난스러운 하얀 마스코트 디지털 펫입니다.
 
 ![또리 contact sheet](previews/wiz_ddory/contact-sheet.png)
